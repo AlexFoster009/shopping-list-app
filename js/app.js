@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-console.log(' step 1');
+console.log(' Set Variables');
 var submissions = 0;
 var check = '<span class="check"> </span>';
 var del = '<span  class="delete"> </span>';

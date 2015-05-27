@@ -4,9 +4,9 @@ body { background-color: #666;}
 .wrapper {
 	
 	background-image: url('../images/texture.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-	height: 600px;
+
+
+	padding: 10px;
 	width: 50%;
 	margin: 0 auto;
 	border-radius: 10px;
@@ -34,7 +34,7 @@ background-repeat: no-repeat;
 
 .button {  text-align: center; display: block; margin: 0 auto; width: 300px; padding: 10px; background-color: red; border: none; border-radius: 5px; font-weight: bold; color: white; font-size: 1em;}
 
-.button-container { margin-top: 15px;}
+.button-container { margin-top: 15px; margin-bottom: 15px;}
 
   .list-item {background-color: yellow;
   border-radius: 15px;
