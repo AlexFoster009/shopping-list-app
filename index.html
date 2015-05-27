@@ -5,29 +5,32 @@
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+	<script src="js/app.js"> </script>
+	
 </head>
 <body>
 	<div class="wrapper"> 
 		<div class="content"> 
 			<h1>Shopping list </h1>
-			
+			<p class="text">Enter items in to box below to add them to your list </p>
 			<input type="text" id="item"  placeholder="Add Item" class="add-item">
+
+			
+			
 		</div>
 
 		<div class="shopping-list">
-			<ul class="list-items"> 
-				<li>lsit</li>
-				<li>lsit</li>
-
-
-			</ul>
-
-
+	
+			<p class="list-item no-strikethrough">
+				<span class="check"> </span>
+				<span class="delete"> </span>
+					shiiittt
+			</p>	
+		
 		 </div>
 
-
-
-	</div>
+<div class=" button-container"> <button class=" button" id="reset" name="reset">Reset  </button>	</div>
+	
 
 
 </body>

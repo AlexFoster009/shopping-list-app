@@ -3,31 +3,65 @@ body { background-color: #666;}
 
 .wrapper {
 	
-	background-color: white;
+	background-image: url('../images/texture.jpg');
+background-size: cover;
+background-repeat: no-repeat;
 	height: 600px;
 	width: 50%;
 	margin: 0 auto;
+	border-radius: 10px;
 }
 
+.content { width: 600px; margin: 0 auto;}
 .content h1 { text-align: center;
+				color: white;
+				font-weight: bold;
 				padding: 15px;}
 
 .add-item { display: block;
 			margin: 0 auto;
-				width: 45%;
-				padding: 5px;}
+				width: 50%;
+				padding: 15px; 
+				border-radius: 5px;}
 
-
+.text { color: #111; font-weight: bold; border: 1px solid black; border-radius: 5px; text-align: center; padding: 10px;}
 
 .shopping-list {
-
+	
+	margin-top: 15px;
 	text-align: center;
 }
 
-.shopping-list ul { display: inline-block;
-						width: 50%;
-							padding: 0;}
+.button {  text-align: center; display: block; margin: 0 auto; width: 300px; padding: 10px; background-color: red; border: none; border-radius: 5px; font-weight: bold; color: white; font-size: 1em;}
 
-.shopping-list li { list-style-type: none;
-					margin: 5px;
-					background-color: green;}
+.button-container { margin-top: 15px;}
+
+  .list-item {background-color: yellow;
+  border-radius: 15px;
+  width: 550px;
+  color: #000;
+  display: table;
+  font-size: 12pt;
+  height: 50px;
+  line-height: 24pt;
+  margin: 15px auto;
+  padding: 0 15px;
+z-index: 1;}
+
+  .check { background: url("../images/check.png");   cursor: pointer;
+  margin-top: 4px;
+  float: right;
+  height: 48px;
+  width: 48px;
+z-index: 9999;}
+
+
+  .delete { background: url("../images/remove.png");   cursor: pointer;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  float: left;
+  height: 50px;
+  width: 50px;
+z-index: 9999;}
+
+.strikethrough {   text-decoration: line-through !important;}
